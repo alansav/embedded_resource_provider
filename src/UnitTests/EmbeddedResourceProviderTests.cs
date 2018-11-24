@@ -23,7 +23,7 @@ namespace Savage.Providers
             var sut = new EmbeddedResourceProvider(Assembly.GetExecutingAssembly());
             var actual = sut.GetEmbeddedResourceString(EmbeddedResourceName);
 
-            Assert.Equal("Lorem Ipsum...\r\n...id est laborum", actual);
+            Assert.Equal("Lorem Ipsum...\t...id est laborum", actual);
         }
     }
 }

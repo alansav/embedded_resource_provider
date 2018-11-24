@@ -1,2 +1,1 @@
-﻿Lorem Ipsum...
-...id est laborum
+﻿Lorem Ipsum...	...id est laborum
